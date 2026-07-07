@@ -81,7 +81,12 @@ validation accuracy; the Surface Crack task is visually easy, so the point of
 the project is the from-scratch implementation and the attention-rollout maps
 that localise the crack, not the headline number.
 
-Attention-rollout examples are saved to `assets/` by the notebook.
+Attention rollout on held-out cracked images. The model is trained only with
+image-level labels (cracked or intact), yet its attention lands on the crack
+itself, which is what makes it useful for inspection.
+
+![attention rollout](assets/rollout_0.png)
+![attention rollout](assets/rollout_1.png)
 
 ## Dataset
 

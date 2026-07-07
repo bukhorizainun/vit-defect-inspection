@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+matplotlib
+pillow
+tqdm
+# optional: pretrained baseline and Colab dataset download
+timm>=0.9
+kagglehub
